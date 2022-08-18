@@ -1,0 +1,20 @@
+{
+  "name": "supergraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "supergraph": "rover supergraph compose --config ./supergraph-config.yaml > supergraph.graphql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^2.0.5",
+    "@escape.tech/graphql-armor": "^1.0.9",
+    "apollo-server": "^3.10.1",
+    "graphql": "^16.6.0"
+  }
+}
